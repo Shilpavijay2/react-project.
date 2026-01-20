@@ -1,0 +1,100 @@
+/* GENERAL PAGE SPACING */
+.home {
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+/* ---------------- Handcrafted Curations ---------------- */
+.curations h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.curation-items {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.curation-card {
+  text-align: center;
+  width: 120px;
+}
+
+.curation-card img {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+/* ---------------- Barista Recommends ---------------- */
+.barista {
+  margin-top: 60px;
+}
+
+.barista h3 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.recommend-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: white;
+  padding: 20px;
+  width: 400px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.15);
+  margin: auto;
+}
+
+.recommend-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.price {
+  margin: 6px 0;
+  font-weight: bold;
+}
+
+.add-btn {
+  background: #00754A;
+  color: #fff;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+/* ---------------- Coffee Science ---------------- */
+.coffee {
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.coffee-img {
+  width: 420px;
+  height: 260px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.coffee-text {
+  max-width: 420px;
+}
+
+.learn-btn {
+  background: #00754A;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,110 @@
+/* ---------- GIFT PAGE LAYOUT ---------- */
+.gift-page {
+  width: 100%;
+  padding: 30px 40px;
+  background: #fafafa;
+  font-family: Arial, sans-serif;
+}
+
+.gift-page h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #333;
+  font-weight: 600;
+}
+
+/* ---------- CATEGORY BUTTONS ---------- */
+.gift-tabs {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.gift-tabs button {
+  padding: 10px 18px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.3s ease;
+  color: #444;
+}
+
+.gift-tabs button:hover {
+  background: #f1f1f1;
+}
+
+.gift-tabs button.active {
+  background: #006241; /* Starbucks green */
+  color: white;
+  border-color: #006241;
+}
+
+/* ---------- GIFT CARD GRID ---------- */
+.gift-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+  padding: 10px;
+}
+
+.gift-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  transition: 0.2s ease-in-out;
+}
+
+.gift-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.12);
+}
+
+.gift-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+.gift-card h3 {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #222;
+}
+
+.gift-card p {
+  font-size: 14px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* ---------- ADD ITEM BUTTON ---------- */
+.gift-card button {
+  padding: 10px 20px;
+  background: #006241;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s ease;
+}
+
+.gift-card button:hover {
+  background: #004e33;
+}
+
+/* ---------- RESPONSIVE FIX ---------- */
+@media (max-width: 480px) {
+  .gift-card img {
+    height: 130px;
+  }
+}
